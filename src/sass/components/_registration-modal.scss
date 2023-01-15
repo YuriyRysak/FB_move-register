@@ -76,7 +76,7 @@ html {
   height: 100%;
 }
 
-.form {
+.form.invis {
   z-index: 15;
   position: relative;
   background: $white;
@@ -227,10 +227,12 @@ html {
 
   // Panel
   &-panel {
-    padding: 60px calc(5% + 60px) 60px 60px;
+   padding-left: 60px;
+   padding-right: 60px;
+    // padding: 60px calc(5% + 60px) 60px 60px;
     box-sizing: border-box;
 
-    // Panel One
+    Panel One
     &.one {
       &:before {
         @extend .overlay;
