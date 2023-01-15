@@ -36,21 +36,21 @@ const auth = getAuth(firebaseConfig);
 // ===============================================================
 const logInButtonRef = document.querySelector('.auth-btn');
 const logOutButtonRef = document.querySelector('.logout__btn');
-const modalWindow = document.querySelector('.modal-form');
+const modalWindow = document.querySelector('.container__form');
 // const rowRef = document.querySelector('.row');
 // const backDropRef = document.querySelector('.backdrop');
 // const closeModalBtnRef = document.querySelector('.fa-solid');
 const checkBoxRef = document.querySelector('.form-check-input');
 const formButtonSignUpRef = document.querySelector('.btn__signup');
 const formButtonLogInRef = document.querySelector('.btn__login');
-const formRef = document.querySelector('.form_content');
+const formRef = document.querySelector('.form');
 let firstPassInputRef = document.querySelector('#firstPass');
 // const repeatPassInputRef = document.querySelector('#repeatedPass');
-const userNameInputRef = document.querySelector('#username');
-let userEmailInputRef = document.querySelector('#email');
+// const userNameInputRef = document.querySelector('#userName');
+let userEmailInputRef = document.querySelector('#userEmail');
 // const loginLinkRef = document.querySelector('.login__link');
 let libraryLinkRef = document.querySelector('.library-link');
-// =================================================npm==============
+// ===============================================================
 // libraryLinkRef.addEventListener('click', onLibraryLinkClick);
 formButtonSignUpRef.disabled = true;
 // ===============================================================
